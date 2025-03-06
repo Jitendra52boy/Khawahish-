@@ -67,7 +67,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="🗂 Get Any Movie 🖥", url=f"https://t.me/LB_Movies_Bot")
+            InlineKeyboardButton(text="🥹 Add Me 🥹", url=f"http://t.me/desire1_wish_bot")
         ],
     ]
     
@@ -84,7 +84,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="🗂 Get Any Movie 🖥", url=f"https://t.me/LB_Movies_Bot")
+            InlineKeyboardButton(text="🥹 Add Me 🥹", url=f"http://t.me/desire1_wish_bot")
         ],
     ]
     return buttons

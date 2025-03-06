@@ -35,7 +35,7 @@ def private_panel(_):
     ]
     buttons.append(
             [
-                InlineKeyboardButton(text="🗂 Get Any Movie 🖥", url=f"https://t.me/LB_Movies_Bot")
+                InlineKeyboardButton(text="🥹 Add Me 🥹", url=f"http://t.me/desire1_wish_bot")
             ]
         )
     return buttons

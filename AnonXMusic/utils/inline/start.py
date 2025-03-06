@@ -35,7 +35,7 @@ def private_panel(_):
     ]
     buttons.append(
             [
-                InlineKeyboardButton(text="🥹 Add Me 🥹", url=f"http://t.me/desire1_wish_bot")
+                InlineKeyboardButton(text="🥹 Add Me 🥹", url=f"https://t.me/{app.username}?startgroup=true")
             ]
         )
     return buttons

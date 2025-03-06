@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "‎")
+API_ID = int(getenv("API_ID", "25619358"))
+API_HASH = getenv("API_HASH", "3a178d74b056ba890432a2e1dd5bc3b6‎")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7469825671:AAE2Qr4VPF73_SNA146Z81e9wVCvfM66KyY")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Raghav23:Raghav23@cluster0.6nrx6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -27,7 +27,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 120))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002430579671"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6502237398"))
+OWNER_ID = int(getenv("OWNER_ID", "2121966922"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -74,7 +74,7 @@ CACHE_SLEEP = int(getenv("CACHE_SLEEP" , "3600"))   #60*60
 
 
 # Get your pyrogram v2 session from 
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQGG654AGMtLgmVy8EV-Hga0u5ieGSZDCGBAiYY-GiBlzMSf6ArHmUhdsEQi3KGw5hX3Ctk3HSBpNylORb1XgJdTb0lXPsKyc3jZZ0yCR7Lz1pHtVu7Hs9dg6ag5WcpzSLkCiaE0APQVnBxzunHbtKNqvOCBaoARMLZkz1FDWBU70Z5xNSgPQAyCUWV-pa1i0oMaoGH718ntjWSDfMyfvjipQmUrwbZcAMs45IH9W7ddnAIxm2MVbVMAU4axNl_2mo7Palj_1JDzfT6xYH0LAhcRebOKDZ_UsYW3DqxJ6NFFpfWINDAz6QAF7OaDopcfTGjkDC6qhiwc0SkKnpEagxFa5ap0aAAAAAHVliPiAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -89,21 +89,21 @@ autoclean = []
 confirmer = {}
 file_cache: dict[str, float] = {}
 
-START_IMG_URL = ["https://envs.sh/MW2.jpg"]
+START_IMG_URL = ["https://envs.sh/wzY.jpg"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/MW2.jpg"
+    "PING_IMG_URL", "https://envs.sh/wzY.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/MW2.jpg"
-STATS_IMG_URL = "https://envs.sh/MW2.jpg"
-TELEGRAM_AUDIO_URL = "https://envs.sh/MW2.jpg"
-TELEGRAM_VIDEO_URL = "https://envs.sh/MW2.jpg"
-STREAM_IMG_URL = "https://envs.sh/MW2.jpg"
-SOUNCLOUD_IMG_URL = "https://envs.sh/MW2.jpg"
-YOUTUBE_IMG_URL = "https://envs.sh/MW2.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/MW2.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/MW2.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/MW2.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/wzY.jpg"
+STATS_IMG_URL = "https://envs.sh/wzY.jpg"
+TELEGRAM_AUDIO_URL = "https://envs.sh/wzY.jpg"
+TELEGRAM_VIDEO_URL = "https://envs.sh/wzY.jpg"
+STREAM_IMG_URL = "https://envs.sh/wzY.jpg"
+SOUNCLOUD_IMG_URL = "https://envs.sh/wzY.jpg"
+YOUTUBE_IMG_URL = "https://envs.sh/wzY.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://envs.sh/wzY.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://envs.sh/wzY.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://envs.sh/wzY.jpg"
 
 
 
